@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo">
+
+                </div>
+            </div>
+            <div class="nav-search">
+                <div class="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input type="text" placeholder="Search for Products, Brands and More" class="searchInput">
+            </div>
+            <div class="nav-sec">
+                <div class="nav-log">
+                    <i class="fa-regular fa-user"></i>
+                    <span class="log-span">Login</span>
+                    <select class="log-select">
+                        <option></option>
+                        <!-- change to be made here -->
+                    </select>
+                </div>
+
+                <div class="nav-cart">
+                    <i class="fa-solid fa-cart-shopping" style="font-size: 1rem;"></i>
+                    <span style="font-size: 1.15rem;padding-left: 4px;">Cart</span>
+                </div>
+
+                <div class="nav-shop">
+                    <i class="fa-solid fa-shop" style="font-size: 1rem;"></i>
+                    <span style="font-size: 1.15rem;padding-left: 4px;">Become a Seller</span>
+                </div>
+
+                <div class="nav-dot">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="shop-opt">
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p1.webp');"></div>
+            <p>Grocery</p>
+        </div>
+
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p2.webp');"></div>
+            <p>Fashion</p>
+        </div>
+
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p3.webp');"></div>
+            <p>Mobile</p>
+        </div>
+
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p4.webp');"></div>
+            <p>Home & Furniture</p>
+        </div>
+
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p5.webp');"></div>
+            <p>Electronics</p>
+        </div>
+
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p6.webp');"></div>
+            <p>Appliances</p>
+        </div>
+
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p7.webp');"></div>
+            <p>Travel</p>
+        </div>
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p8.webp');"></div>
+            <p>Beauty, Toys & More</p>
+        </div>
+        <div class="opt">
+            <div class="opt-img" style="background-image: url('p9.webp');"></div>
+            <p>Two Wheelers</p>
+        </div>
+    </div>
+    <!-- slide-container -->
+    <div class="slideshow-container">
+        <div class="wrapper">
+            <img src="sliding1.webp">
+            <img src="sliding2.webp">
+            <img src="sliding3.webp">
+            <img src="sliding4.webp">
+            <img src="sliding5.webp">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="dot-sec" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+    <!-- items -->
+    <div class="shop-container">
+        <div class="shop-heading">
+            <span>Best of Electronics</span>
+        </div>
+        <div class="shop-items">
+            <div class="items">
+                <img src="shop-img1.jpg" class="item-img">
+                <span>Best true wireless Headphones</span>
+                <p>Grab Now</p>
+            </div>
+            <div class="items">
+                <img src="shop-img2.jpeg" class="item-img">
+                <span>Best Selling Mobile Speaker</span>
+                <p>From ₹499*</p>
+            </div>
+            <div class="items">
+                <img src="shop-img3.jpeg" class="item-img">
+                <span>Sandisk Extereme Portable</span>
+                <p>From ₹5,799</p>
+            </div>
+            <div class="items">
+                <img src="shop-img4.jpeg" class="item-img">
+                <span>Viewsonic Monitors</span>
+                <p>From ₹8000</p>
+            </div>
+            <div class="items">
+                <img src="shop-img5.jpeg" class="item-img">
+                <span>Best of Shavers</span>
+                <p>From ₹1,649</p>
+            </div>
+            <div class="items">
+                <img src="shop-img6.jpeg" class="item-img">
+                <span>Top Mirrorless Camers</span>
+                <p>Shop Now!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-container">
+        <div class="shop-heading">
+            <span>Beauty, Food, Toys & more</span>
+        </div>
+        <div class="shop-items">
+            <div class="items">
+                <img src="shop-img7.jpeg" class="item-img">
+                <span>Dry Fruits</span>
+                <p>Upto 75% Off</p>
+            </div>
+            <div class="items">
+                <img src="shop-img8.jpeg" class="item-img">
+                <span>Top Selling Stationary</span>
+                <p>From ₹49</p>
+            </div>
+            <div class="items">
+                <img src="shop-img9.jpeg" class="item-img">
+                <span>Geared Cycles</span>
+                <p>Upto 70% Off</p>
+            </div>
+            <div class="items">
+                <img src="shop-img10.jpeg" class="item-img">
+                <span>Gym Essentials</span>
+                <p>From ₹139</p>
+            </div>
+            <div class="items">
+                <img src="shop-img11.jpeg" class="item-img">
+                <span>String Instruments</span>
+                <p>Upto 70% off</p>
+            </div>
+            <div class="items">
+                <img src="shop-img12.jpeg" class="item-img">
+                <span>Musical Keyboards</span>
+                <p>Upto 70% off</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-container">
+            <div class="foot-content">
+                <ul>
+                    <p> ABOUT</p>
+                    <a>Contact Us</a>
+                    <a>About Us</a>
+                    <a>Careers</a>
+                    <a>Flipkart Stories</a>
+                    <a>Press</a>
+                    <a>Corporate Information</a>
+                </ul>
+                <ul>
+                    <p>GROUP COMPANIES</p>
+                    <a>Myntra</a>
+                    <a>Cleartrip</a>
+                    <a>Shopsy</a>
+                </ul>
+                <ul>
+                    <p>HELP</p>
+                    <a>Payments</a>
+                    <a>Shipping</a>
+                    <a>Cancellation & Returns</a>
+                    <a>FAQ</a>
+                    <a>Report Infringement</a>
+                </ul>
+                <div class="content">
+                    <ul>
+                        <p>CONSUMER POLICY</p>
+                        <a>Cancellation & Returns</a>
+                        <a>Term of Use</a>
+                        <a>Security</a>
+                        <a>Privacy</a>
+                        <a>Sitemap</a>
+                        <a>Grievance Redressal</a>
+                        <a>EPR Compliance</a>
+                </div>
+                </ul>
+                <ul>
+                    <p>Mail Us:</p>
+                    <span>Flipkart Internet Private Limited, </span>
+                    <span>Buildings Alyssa, Begonia &</span>
+                    <span>Clove Embassy Tech Village,</span>
+                    <span>Outer Ring Road, Devarabeesanahalli Village, </span>
+                    <span>Bengaluru, 560103,</span>
+                    <span>Karnataka, India</span>
+                    <p style="padding-top: 20px;">Social:
+                    <div class="social" style="color: white;font-size: 1rem;">
+                        <i class="fa-brands fa-facebook" style="padding-right: 10px;"></i>
+                        <i class="fa-brands fa-x-twitter" style="padding-right: 10px;"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    </p>
+                </ul>
+
+                <ul>
+                    <p>Registered Office Address:</p>
+                    <span>Flipkart Internet Private Limited, </span>
+                    <span>Buildings Alyssa, Begonia &</span>
+                    <span>Clove Embassy Tech Village,</span>
+                    <span>Outer Ring Road, Devarabeesanahalli Village, </span>
+                    <span>Bengaluru, 560103,</span>
+                    <span>Karnataka, India</span>
+                    <span>CIN: U51109KA2012PTC066107</span>
+                    <span>Telephone: 044-45614700 / 044-67415800</span>
+                </ul>
+            </div>
+            <div class="foot-content2">
+                <div class="conect">
+                    <i class="fa-solid fa-shop" style="color: goldenrod;"></i>
+                    <span>Become a Sellar</span>
+                </div>
+                <div class="conect">
+                    <i class="fa-regular fa-star" style="color: goldenrod;"></i>
+                    <span>Advertise</span>
+                </div>
+                <div class="conect">
+                    <i class="fa-solid fa-gift" style="color: goldenrod;"></i>
+                    <span>Gift Card</span>
+                </div>
+                <div class="conect">
+                    <i class="fa-solid fa-question" style="color: goldenrod;"></i>
+                    <span>Help Center</span>
+                </div>
+                <div class="conect">
+                    <span>©2007-2024 Flipkart.com</span>
+                </div>
+                <div class="conect">
+                    <img src="foot1.svg">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
